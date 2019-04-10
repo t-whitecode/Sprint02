@@ -1,0 +1,37 @@
+{{>header}}
+<div class="container" style="border-left: 1px solid silver; border-right: 1px solid silver  "> 
+    <h2>Crear nuevo curso</h2>
+    <br>
+    <p>Para crear un curso por favor llene el siguiente formulario</p>
+    <div class = "container">
+        <form action="/crearC" method="post">
+            <div class="form-label-group">
+                <input type="text" name="nombre" class="form-control" placeholder="Ingrese el Nombre" required autofocus>
+                <label for="nombre"></label>
+            </div>
+            <div class="form-label-group">
+                <input type="number" name="id" class="form-control" placeholder="Ingrese el id" required autofocus>
+                <label for="id"></label>
+            </div>
+            <div class="form-label-group">
+                <input type="text" name="descripcion" class="form-control" placeholder="Ingrese una descripción" required autofocus>
+                <label for="descripcion"></label>
+            </div>
+            <div class="form-label-group">
+                <input type="number" name="valor" class="form-control" placeholder="Ingrese el valor" required autofocus>
+                <label for="valor"></label>
+            </div>
+            <div class="form-label-group">
+                <input type="text" name="modalidad" class="form-control" placeholder="Presencial o Virtual" autofocus>
+                <label for="modalidad"></label>
+            </div>
+            <div class="form-label-group">
+                <input type="number" name="intensidad" class="form-control" placeholder="Ingrese la intensidad"  autofocus>
+                <label for="intensidad"></label>
+            </div>
+            <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Generar</button>
+            <hr class="my-4">
+        </form>
+    </div>	
+
+{{>footer}}
