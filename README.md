@@ -2,7 +2,9 @@
 
 #*Instrucciones:*
 
-#-se debe correr de la siguente forma src/runner.js
+#-Primero: que todo instalar el npm( npm i )
+
+#-Segundo: se debe correr de la siguente forma src/runner.js
 
 
 #¡Gracias!
