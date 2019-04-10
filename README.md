@@ -1,8 +1,8 @@
-#Buenas noches, mi nombre es Edier David.
+#Buenas noches, esta es el segundo Sprint del equito T-WhiteCode
 
 #*Instrucciones:*
 
-#-El archivo cursos.js corresponde a la primera parte de la actividad y, el archivo register.js corresponde a la actividad 2 de los estudiantes cabe recalcalcar que el segundo archivo tiene dependencias del archivo 1.
+#-se debe correr de la siguente forma src/runner.js
 
 
 #¡Gracias!
