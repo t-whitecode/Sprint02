@@ -4,7 +4,7 @@
 
 #-Primero: que todo instalar el npm( npm i )
 
-#-Segundo: se debe correr de la siguente forma src/runner.js
+#-Segundo: se debe correr de la siguente forma src/app.js
 
 
 #¡Gracias!
