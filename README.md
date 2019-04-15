@@ -6,7 +6,7 @@
 
 #-Segundo: se debe correr de la siguente forma src/app.js
 
-#-Los a la hora de ingresar los roles, se debe ingresar solo uno de los siguientes:
+#-A la hora de llenar el campo "rol", se debe ingresar solo uno de los siguientes:
   Aspirante
   Profesor
   Coordinador
