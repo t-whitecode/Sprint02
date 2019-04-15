@@ -44,7 +44,7 @@ app.post('/', (req, res ) => {
 	let estudiante = new Estudiante ({
         nombre: req.body.nombre,
         contraseña: bcrypt.hashSync(req.body.contraseña, 15),
-        rol: 'Aspirante',
+        rol: req.body.rol,
         documento: req.body.documento,
         correo: req.body.correo,
         telefono: req.body.telefono
